@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AAlphacuts </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;600&family=Orbitron:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="preloader">
+        <div class="preloader-text">AALPHACUTS<span class="text-cyan">.</span></div>
+        <div class="loading-bar-container">
+            <div class="loading-bar"></div>
+        </div>
+    </div>
+
+    <div class="noise-overlay"></div>
+    <div class="cursor-dot"></div>
+    <div class="cursor-follower"></div>
+
+    <div class="global-ambient-canvas"></div>
+
+    <main id="smooth-wrapper">
+        <div id="smooth-content">
+
+            <section id="scene-1" class="scene hero-cinematic-section">
+
+                <div class="hero-ambient-layer"></div>
+                <div class="hero-interactive-orb"></div>
+                <div class="flash-cut-container">
+                    <div class="flash-frame frame-red"></div>
+                    <div class="flash-frame frame-cyan"></div>
+                    <div class="flash-frame frame-white"></div>
+                </div>
+
+                <div class="hero-content-wrapper" id="hero-tilt-target">
+                    <h1 class="hero-title-master">
+
+                        <div class="hero-line-box">
+                            <span class="hero-line line-calm">I Don't Just Edit.</span>
+                        </div>
+
+                        <div class="hero-line-box impact-box">
+                            <span class="hero-line line-impact text-cyan" data-text="I CREATE EXPERIENCE.">I CREATE
+                                EXPERIENCE.</span>
+                        </div>
+
+                    </h1>
+
+                    <div class="hero-cta-container">
+                        <a href="#scene-6" class="magnetic-btn btn-cinematic-glow">
+                            <span class="btn-text">VIEW THE REEL</span>
+                            <div class="btn-hover-pulse"></div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cinematic-scroll-indicator">
+                    <span class="scroll-label">INITIATE SEQUENCE</span>
+                    <div class="scroll-line-track">
+                        <div class="scroll-line-progress"></div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="scene-2" class="scene cinematic-trailer-section">
+                <div class="cinematic-vignette"></div>
+                <div class="ambient-glow-bg"></div>
+
+                <div class="parallax-layer layer-bg">
+                    <span class="float-code code-a text-cyan">const rawFootage = new Video();</span>
+                    <span class="float-code code-b text-red">gsap.to(".world", { duration: ∞ });</span>
+                    <span class="float-code code-c">init_cinematic_engine();</span>
+                </div>
+
+                <div class="parallax-layer layer-mid">
+                    <div class="float-vid-card vid-1 tilt-card">
+                        <video src="items/Ajit Edit.mp4" muted loop playsinline class="cinematic-hover-vid"></video>
+                        <div class="vid-glow"></div>
+                    </div>
+                    <div class="float-vid-card vid-2 tilt-card">
+                        <video src="items/DeathNote 3.mp4" muted loop playsinline class="cinematic-hover-vid"></video>
+                        <div class="vid-glow"></div>
+                    </div>
+                </div>
+
+                <div class="trailer-content-wrapper">
+
+                    <div class="trailer-phase phase-1-calm">
+                        <h2 class="calm-text">I am Ajit.</h2>
+                        <h2 class="calm-text">I don't just edit.</h2>
+                        <h2 class="calm-text">I build experiences.</h2>
+                    </div>
+
+                    <div class="trailer-phase phase-3-impact">
+                        <div class="impact-glow-burst"></div>
+                        <h1 class="impact-text">I CREATE <br><span class="text-cyan text-glow">EXPERIENCE</span></h1>
+                    </div>
+
+                    <div class="trailer-phase phase-4-immersive">
+                        <div class="immersive-split">
+                            <div class="mini-timeline">
+                                <div class="tl-item"><span class="tl-dot"></span>
+                                    <p class="tl-text">Started Editing</p>
+                                </div>
+                                <div class="tl-item"><span class="tl-dot"></span>
+                                    <p class="tl-text">Freelancing</p>
+                                </div>
+                                <div class="tl-item"><span class="tl-dot"></span>
+                                    <p class="tl-text">Motion Design</p>
+                                </div>
+                                <div class="tl-item"><span class="tl-dot"></span>
+                                    <p class="tl-text">Creative Coding</p>
+                                </div>
+                            </div>
+                            <div class="morph-visual-container tilt-card">
+                                <img src="https://images.unsplash.com/photo-1605371924599-2d0365da1ae0?q=80&w=600"
+                                    alt="Director" class="morph-img">
+                                <video src="items/lv_0_20241009115123.mp4" muted loop playsinline
+                                    class="morph-vid"></video>
+                                <div class="holo-scanlines"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="scene-3" class="scene arsenal-reactor-section">
+                <div class="arsenal-header">
+                    <h2 class="section-title">The <span class="text-cyan">Arsenal</span></h2>
+                    <p class="section-subtitle">Creative Weapon System Core</p>
+                </div>
+
+                <div class="reactor-container">
+
+                    <div class="reactor-core">
+                        <div class="core-ring core-ring-1"></div>
+                        <div class="core-ring core-ring-2"></div>
+                        <div class="core-center">
+                            <span class="core-text">A7</span>
+                        </div>
+                    </div>
+
+                    <div class="orbit-system-container">
+                        <div class="orbit-node-wrapper" style="--angle: 0deg;" data-skill="editing">
+                            <div class="energy-beam"></div>
+                            <div class="skill-node">
+                                <span class="node-icon">Pr</span>
+                                <span class="node-label">Editing</span>
+                            </div>
+                        </div>
+
+                        <div class="orbit-node-wrapper" style="--angle: 72deg;" data-skill="motion">
+                            <div class="energy-beam"></div>
+                            <div class="skill-node">
+                                <span class="node-icon">Ae</span>
+                                <span class="node-label">Motion</span>
+                            </div>
+                        </div>
+
+                        <div class="orbit-node-wrapper" style="--angle: 144deg;" data-skill="color">
+                            <div class="energy-beam"></div>
+                            <div class="skill-node">
+                                <span class="node-icon">Da</span>
+                                <span class="node-label">Color</span>
+                            </div>
+                        </div>
+
+                        <div class="orbit-node-wrapper" style="--angle: 216deg;" data-skill="logic">
+                            <div class="energy-beam"></div>
+                            <div class="skill-node">
+                                <span class="node-icon">JS</span>
+                                <span class="node-label">Logic</span>
+                            </div>
+                        </div>
+
+                        <div class="orbit-node-wrapper" style="--angle: 288deg;" data-skill="design">
+                            <div class="energy-beam"></div>
+                            <div class="skill-node">
+                                <span class="node-icon">CSS</span>
+                                <span class="node-label">Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reactor-modal">
+                    <div class="reactor-modal-backdrop"></div>
+                    <div class="reactor-modal-content glass-panel">
+                        <button class="close-reactor-btn">
+                            <span class="close-line"></span><span class="close-line"></span>
+                        </button>
+                        <div class="reactor-modal-body">
+                            <div class="reactor-video-wrapper">
+                                <video id="reactor-video-player" src="" loop muted playsinline autoplay></video>
+                                <div class="holo-scanlines"></div>
+                            </div>
+                            <div class="reactor-info">
+                                <h3 id="reactor-title" class="text-cyan">Skill Title</h3>
+                                <p id="reactor-desc">Detailed description of the creative power.</p>
+                                <div class="reactor-tools-box">
+                                    <span class="tools-label">System Engaged:</span>
+                                    <span id="reactor-tools" class="text-red">Tools</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="scene-4" class="scene portfolio-section">
+                <div class="portfolio-header">
+                    <h2 class="section-title">The <span class="text-cyan">Showcase</span></h2>
+                </div>
+
+                <div class="cinematic-grid">
+
+                    <div class="grid-item featured-item">
+                        <video src="items\lv_0_20241009115123.mp4" muted loop playsinline class="hover-video"></video>
+                        <div class="item-overlay"></div>
+                        <div class="item-content">
+                            <h3 class="item-title">AAlphacuts Main Reel</h3>
+                            <p class="item-category">Made in Blender</p>
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <video src="items\Fiverr.mp4" muted loop playsinline class="hover-video"></video>
+                        <div class="item-overlay"></div>
+                        <div class="item-content">
+                            <h3 class="item-title">Fiverr Platform</h3>
+                            <p class="item-category">Showcase Reel</p>
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <video src="items\Ajit Edit.mp4" muted loop playsinline class="hover-video"></video>
+                        <div class="item-overlay"></div>
+                        <div class="item-content">
+                            <h3 class="item-title">My Edit</h3>
+                            <p class="item-category">Edit</p>
+                        </div>
+                    </div>
+
+                    <div class="grid-item">
+                        <video src="items\DeathNote 3.mp4" muted loop playsinline class="hover-video"></video>
+                        <div class="item-overlay"></div>
+                        <div class="item-content">
+                            <h3 class="item-title">Death Note</h3>
+                            <p class="item-category">VFX</p>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-modal">
+                        <div class="modal-close">
+                            <span class="close-line"></span>
+                            <span class="close-line"></span>
+                        </div>
+                        <div class="modal-content">
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="scene-process" class="scene cinematic-workspace-section">
+
+                <div class="workspace-container">
+                    <div class="workspace-top">
+
+                        <div class="preview-monitor-wrapper">
+                            <div class="monitor-screen">
+                                <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=1200&auto=format&fit=crop"
+                                    class="preview-layer layer-raw" alt="Raw">
+                                <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=1200&auto=format&fit=crop"
+                                    class="preview-layer layer-cut" alt="Cut">
+                                <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=1200&auto=format&fit=crop"
+                                    class="preview-layer layer-color" alt="Color">
+                                <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?q=80&w=1200&auto=format&fit=crop"
+                                    class="preview-layer layer-final" alt="Final">
+
+                                <div class="monitor-ui">
+                                    <div class="monitor-top-bar">
+                                        <div class="rec-indicator"><span class="rec-dot"></span> REC</div>
+                                        <div class="timecode-display">00:00:00:00</div>
+                                    </div>
+                                    <div class="monitor-vignette"></div>
+                                    <div class="monitor-center-crosshair"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="process-side-panel">
+                            <h3 class="panel-header">THE <span class="text-cyan">PROCESS</span></h3>
+                            <ul class="process-steps">
+                                <li class="step-item step-raw">
+                                    <span class="step-num">01</span>
+                                    <div class="step-details">
+                                        <h4>RAW INGEST</h4>
+                                        <p>Flattened profile. Organizing chaos into structure.</p>
+                                    </div>
+                                </li>
+                                <li class="step-item step-cut">
+                                    <span class="step-num">02</span>
+                                    <div class="step-details">
+                                        <h4>THE CUT</h4>
+                                        <p>Trimming the fat. Finding the invisible rhythm of the story.</p>
+                                    </div>
+                                </li>
+                                <li class="step-item step-color">
+                                    <span class="step-num">03</span>
+                                    <div class="step-details">
+                                        <h4>COLOR GRADE</h4>
+                                        <p>Cinematic tones. Manipulating psychology through light and shadow.</p>
+                                    </div>
+                                </li>
+                                <li class="step-item step-final">
+                                    <span class="step-num">04</span>
+                                    <div class="step-details">
+                                        <h4>MASTER RENDER</h4>
+                                        <p>Final polish. Audio sync, VFX integration, and export.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="workspace-bottom">
+                        <div class="nle-ruler"></div>
+                        <div class="nle-playhead-top"></div>
+                        <div class="nle-playhead-line"></div>
+
+                        <div class="timeline-tracks-mover">
+
+                            <div class="nle-track t-adj">
+                                <div class="nle-clip c-lut" style="left: 200vw; width: 200vw;">LUT_Cinematic_Mood.cube
+                                </div>
+                            </div>
+
+                            <div class="nle-track t-vid">
+                                <div class="nle-clip c-raw" style="left: 0vw; width: 100vw;">MVI_001_RAW.mp4</div>
+                                <div class="nle-clip c-cut" style="left: 100vw; width: 100vw;">Seq_01_ROUGH_CUT.mp4
+                                </div>
+                                <div class="nle-clip c-color" style="left: 200vw; width: 100vw;">Seq_01_GRADED.mp4</div>
+                                <div class="nle-clip c-final" style="left: 300vw; width: 100vw;">
+                                    AALPHACUTS_MASTER_V1.mp4</div>
+                            </div>
+
+                            <div class="nle-track t-aud">
+                                <div class="nle-clip c-audio" style="left: 0vw; width: 400vw;">
+                                    <div class="audio-waveform-bg"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="final-process-climax">
+                    <h2 class="climax-sub">This is not editing.</h2>
+                    <h1 class="climax-main text-cyan text-glow">This is engineering emotion.</h1>
+                </div>
+
+
+                <button id="skip-timeline-btn" class="skip-btn">
+                    <span class="btn-text">SKIP TIMELINE &rarr;</span>
+                    <div class="skip-btn-glow"></div>
+                </button>
+
+            </section>
+
+            <section id="scene-6" class="scene climax-section">
+                <div class="showreel-container">
+                    <div class="video-overlay"></div>
+                    <video id="main-showreel" src="items\Sarnath.mp4" autoplay loop muted playsinline
+                        class="showreel-video"></video>
+                    <button class="reel-control-btn" id="play-pause-btn">
+                        <span class="btn-text" id="play-status">PAUSE</span>
+                        <div class="btn-glow-ring"></div>
+                    </button>
+                </div>
+                <div class="testimonials-wrapper">
+                    <h2 class="section-title text-center" style="text-align: center; margin-bottom: 50px;">The <span
+                            class="text-cyan">Verdict</span></h2>
+                    <div class="testimonial-track-container">
+                        <div class="testimonial-track">
+                            <div class="glass-card testimonial-card">
+                                <div class="quote-mark">"</div>
+                                <p class="quote">The pacing and color grading on our last project were flawless. Ajit
+                                    doesn't just edit; he engineers the viewer's emotions.</p>
+                                <h4 class="client-name">- Studio Director</h4>
+                            </div>
+                            <div class="glass-card testimonial-card">
+                                <div class="quote-mark">"</div>
+                                <p class="quote">The frontend architecture for the PCSSS platform was incredibly robust.
+                                    Clean, performant, and exactly what we needed to scale.</p>
+                                <h4 class="client-name">- Lead Administrator</h4>
+                            </div>
+                            <div class="glass-card testimonial-card">
+                                <div class="quote-mark">"</div>
+                                <p class="quote">A true masterclass in motion design. The custom Lottie integrations and
+                                    JavaScript logic make the entire interface feel alive.</p>
+                                <h4 class="client-name">- Creative Lead</h4>
+                            </div>
+                            <div class="glass-card testimonial-card">
+                                <div class="quote-mark">"</div>
+                                <p class="quote">The pacing and color grading on our last project were flawless. Ajit
+                                    doesn't just edit; he engineers the viewer's emotions.</p>
+                                <h4 class="client-name">- Studio Director</h4>
+                            </div>
+                            <div class="glass-card testimonial-card">
+                                <div class="quote-mark">"</div>
+                                <p class="quote">The frontend architecture for the PCSSS platform was incredibly robust.
+                                    Clean, performant, and exactly what we needed to scale.</p>
+                                <h4 class="client-name">- Lead Administrator</h4>
+                            </div>
+                            <div class="glass-card testimonial-card">
+                                <div class="quote-mark">"</div>
+                                <p class="quote">A true masterclass in motion design. The custom Lottie integrations and
+                                    JavaScript logic make the entire interface feel alive.</p>
+                                <h4 class="client-name">- Creative Lead</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="scene-7" class="scene cinematic-transmission-section">
+                <div class="transmission-ambient-bg"></div>
+                <div class="cinematic-vignette"></div>
+
+                <div class="transmission-container">
+
+                    <div class="signal-hook">
+                        <h2 class="hook-title">
+                            Let’s Create Something<br>
+                            <span class="text-cyan text-glow">Unforgettable.</span>
+                        </h2>
+                        <p class="hook-sub">The studio is open. Send your signal.</p>
+
+                        <div class="social-comlinks">
+                            <a href="https://wa.me/8853812888" target="_blank" class="comlink-btn">
+                                <span class="btn-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent-cyan)" stroke-width="2">
+                                        <path
+                                            d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <span class="comlink-text">WhatsApp Signal</span>
+                                <div class="comlink-ripple"></div>
+                            </a>
+                            <a href="https://instagram.com/YOUR_HANDLE" target="_blank" class="comlink-btn">
+                                <span class="btn-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent-red)" stroke-width="2">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                    </svg>
+                                </span>
+                                <span class="comlink-text">@AAlphacuts</span>
+                                <div class="comlink-ripple"></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="signal-interface glass-panel">
+
+                        <form id="cinematic-transmission-form" class="transmission-form">
+                            <div class="input-wrapper">
+                                <input type="text" id="sender-name" required autocomplete="off">
+                                <label for="sender-name">Designation / Name</label>
+                                <div class="glow-line"></div>
+                            </div>
+                            <div class="input-wrapper">
+                                <input type="email" id="sender-email" required autocomplete="off">
+                                <label for="sender-email">Comlink (Email)</label>
+                                <div class="glow-line"></div>
+                            </div>
+                            <div class="input-wrapper">
+                                <textarea id="sender-message" rows="4" required></textarea>
+                                <label for="sender-message">Project Coordinates (Message)</label>
+                                <div class="glow-line"></div>
+                            </div>
+                            <button type="submit" class="transmit-btn magnetic-btn">
+                                <span class="transmit-btn-text">INITIATE TRANSMISSION</span>
+                                <div class="btn-hover-pulse"></div>
+                            </button>
+                        </form>
+
+                        <div class="transmission-overlay">
+                            <div class="radar-container">
+                                <div class="radar-wave wave-1"></div>
+                                <div class="radar-wave wave-2"></div>
+                                <div class="radar-wave wave-3"></div>
+                            </div>
+                            <div class="transmission-status-box">
+                                <p class="t-status line-1">Connecting to AAlphacuts...</p>
+                                <p class="t-status line-2 text-red">Signal Locked.</p>
+                                <h3 class="t-status line-3 text-cyan text-glow">TRANSMISSION RECEIVED.</h3>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+
+    <footer class="cinematic-footer">
+        <div class="footer-ambient-glow glow-cyan"></div>
+        <div class="footer-ambient-glow glow-red"></div>
+
+        <div class="footer-container">
+
+            <div class="footer-top">
+                <h2 class="footer-brand">AALPHACUTS<span class="text-cyan">.</span></h2>
+                <p class="footer-tagline">Crafting Visual Stories Frame by Frame</p>
+            </div>
+
+            <div class="footer-middle">
+                <div class="footer-col col-about">
+                    <p class="footer-text">Specializing in high-end video editing, motion graphics, and color grading.
+                        We don't just edit clips; we engineer emotions and build unforgettable visual experiences.</p>
+                </div>
+
+                <div class="footer-col col-links">
+                    <ul class="footer-nav">
+                        <li><a href="#scene-1" class="footer-link"> Home </a></li>
+                        <li><a href="#scene-2" class="footer-link"> About </a></li>
+                        <li><a href="#scene-4" class="footer-link">Showcase </a></li>
+                        <li><a href="#scene-7" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col col-contact">
+                    <p class="footer-text">
+                        <span class="text-light">Email:</span> signal@aalphacuts.com<br>
+                        <span class="text-light">Address:</span> Sector 7, Creative Grid
+                    </p>
+                    <a href="#scene-7" class="footer-cta magnetic-btn">
+                        <span class="btn-text">START A PROJECT</span>
+                        <div class="btn-hover-pulse"></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright">&copy; 2026 AAlphacuts. All Signals Reserved.</p>
+
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/mr_ajit__777?igsh=ODltcHVyanhpZ3k=" class="social-icon"
+                        aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="http://www.youtube.com/@aalphacuts" class="social-icon" aria-label="YouTube">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2C5.12 19.5 12 19.5 12 19.5s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z">
+                            </path>
+                            <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ajit-prajapati-05b44a391?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="social-icon" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                            </path>
+                            <rect x="2" y="9" width="4" height="12"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                    <a href="https://wa.me/8853812888" class="social-icon" aria-label="WhatsApp">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/ajitprajapati65" class="social-icon" aria-label="GitHub">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                            </path>
+                        </svg>
+                    </a>
+                    <a href="https://www.fiverr.com/s/pdmoYZ8" target="_blank" class="social-icon" aria-label="Fiverr">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M19.166 6.554h-3.832v-3.06h-6.85v3.06h-3.06v3.06h3.06v6.85c0 1.745 1.325 2.316 2.818 2.316h3.06v-3.06h-1.916c-.412 0-.67-.214-.67-.718V9.614h3.447V6.554zm-15.328 0h3.832v9.146H3.838V6.554zm1.916-4.354c-1.192 0-2.156.963-2.156 2.154 0 1.191.964 2.154 2.156 2.154s2.155-.963 2.155-2.154c0-1.191-.963-2.154-2.155-2.154z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <audio id="hover-sound" src="https://assets.mixkit.co/active_storage/sfx/2571/2571-preview.mp3" preload="auto"
+        volume="0.2"></audio>
+    <audio id="click-sound" src="https://assets.mixkit.co/active_storage/sfx/2568/2568-preview.mp3" preload="auto"
+        volume="0.4"></audio>
+    <audio id="scene-sound" src="https://assets.mixkit.co/active_storage/sfx/2688/2688-preview.mp3" preload="auto"
+        volume="0.1"></audio>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.33/dist/lenis.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
